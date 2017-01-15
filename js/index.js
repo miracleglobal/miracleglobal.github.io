@@ -138,10 +138,10 @@ $(function(){
         location.href="./dropdown/universities.html";
   })
   $('.study .imghover:nth-child(2)').on('click',function(){
-        location.href="./dropdown/hbdCollege.html";
+        location.href="./dropdown/hndCollege.html";
   })
   $('.study .imghover:nth-child(3)').on('click',function(){
-        location.href="./dropdown/akumniAssociation.html";
+        location.href="./dropdown/alumniAssociation.html";
   })
   $('.study .imghover:nth-child(4)').on('click',function(){
         location.href="./dropdown/accommodation.html";
