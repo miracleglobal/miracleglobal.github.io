@@ -1,0 +1,22 @@
+.property-list{
+  padding:20px;
+}
+.property-list-item {
+  width:90%;
+  margin: 60px auto;
+  display: flex;
+  display: -webkit-flex;
+}
+.property-list-item img{
+  /*display: inline-block;*/
+  margin-right: 70px;
+}
+.property-list-item .indrouce h4{
+  font-size: 2em;
+  line-height: 3em;
+}
+.property-list-item .indrouce p{
+  text-indent: 1em;
+  font-size: 1.4em;
+  line-height: 1.3em;
+}

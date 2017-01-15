@@ -1,0 +1,52 @@
+.team-list{
+  padding:20px;
+}
+figure{
+  margin: 0 85px;
+}
+.team-list-item {
+  width:90%;
+  margin: 60px auto;
+}
+.team-list-item figure,.team-list-item .indrouce{
+  display: inline-block;
+}
+.team-list-item .indrouce{
+  width:49%;
+  height: 240px;
+}
+.team-list-item .indrouce h4{
+  font-size: 2em;
+  line-height: 2em;
+}
+.team-list-item .indrouce p{
+  text-indent: 1em;
+  font-size: 1.4em;
+  line-height: 1.1em;
+}
+.team-list .img-team{
+  width: 250px;
+  height: 250px;
+}
+.team-list .media-photo{
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+backface-visibility: hidden;
+position: relative;
+display: inline-block;
+vertical-align: bottom;
+overflow: hidden;
+background-color: #bbb;
+}
+.team-list .media-round{
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+/*#e22080;*/
+}
+.media-male{
+  border: 2px solid #4fb4fa;
+}
+.media-female{
+  border: 2px solid #e22080;
+}
