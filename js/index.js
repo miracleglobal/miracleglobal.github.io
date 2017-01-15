@@ -58,8 +58,9 @@ $(function(){
   })
 
 
-  var clientHeight = document.body.clientHeight ;
+  
   $('.weibo').on('click',function(){
+    var clientHeight = document.body.clientHeight ;
     window.open("http://weibo.com/miracleuk");
   })
   $('.wechat').on('click',function(){
