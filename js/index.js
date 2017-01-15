@@ -100,18 +100,7 @@ $(function(){
   $('.news .imghover:nth-child(2)').on('click',function(){
     location.href="./news/eb5.html";
   })
-    $('.study .pure-img:nth-child(1)').on('click',function(){
-        location.href="./dropdown/universities.html";
-  })
-  $('.study .pure-img:nth-child(2)').on('click',function(){
-        location.href="./dropdown/hbdCollege.html";
-  })
-  $('.study .pure-img:nth-child(3)').on('click',function(){
-        location.href="./dropdown/akumniAssociation.html";
-  })
-  $('.study .pure-img:nth-child(4)').on('click',function(){
-        location.href="./dropdown/accommodation.html";
-  })
+
   $('.news .imghover:nth-child(3)').on('click',function(){
     location.href="./news/theFirstStep.html";
   })
@@ -132,6 +121,8 @@ $(function(){
   $('.discover .numberof').on('click',function(){
     location.href="./discover/numberOfForeign.html";
   })
+  
+
   $('.discover .brexit').on('click',function(){
     location.href="./discover/Brexitcould.html";
   })
@@ -140,5 +131,19 @@ $(function(){
   })
   $('.discover .schoolholiday').on('click',function(){
     location.href="./discover/Schoolholidays.html";
+  })
+  
+  
+     $('.study .imghover:nth-child(1)').on('click',function(){
+        location.href="./dropdown/universities.html";
+  })
+  $('.study .imghover:nth-child(2)').on('click',function(){
+        location.href="./dropdown/hbdCollege.html";
+  })
+  $('.study .imghover:nth-child(3)').on('click',function(){
+        location.href="./dropdown/akumniAssociation.html";
+  })
+  $('.study .imghover:nth-child(4)').on('click',function(){
+        location.href="./dropdown/accommodation.html";
   })
 })
