@@ -60,10 +60,11 @@ $(function(){
 
   
   $('.weibo').on('click',function(){
-    var clientHeight = document.body.clientHeight ;
+    
     window.open("http://weibo.com/miracleuk");
   })
   $('.wechat').on('click',function(){
+    var clientHeight = document.body.clientHeight ;
     $('.mask').css('height',clientHeight).show();
   })
   $('.mask').on('click',function(){
