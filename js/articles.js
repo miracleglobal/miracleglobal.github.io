@@ -5,11 +5,12 @@ $(function(){
   $('.logo').on('click',function(){
     location.href='../index.html';
   })
-  var clientHeight = document.body.clientHeight ;
+  
   $('.weibo').on('click',function(){
     window.open("http://weibo.com/miracleuk");
   })
   $('.wechat').on('click',function(){
+    var clientHeight = document.body.clientHeight ;
     $('.mask').css('height',clientHeight).show();
   })
   $('.mask').on('click',function(){
