@@ -17,8 +17,8 @@ $(function(){
       //  nextButton: '.swiper-button-next',
       slidesPerView: 4.5,
       centeredSlides: false,
-      paginationClickable: true,
       loop:true,
+      loopedSlides :8,
        spaceBetween: 20,
       grabCursor: true
   });
@@ -87,7 +87,7 @@ $(function(){
   $('.discover .morethan').on('click',function(){
     location.href="./discover/morethan.html";
   })
-  $('.discover .schoolholiday').on('click',function(){
+  $('.discover .holiday').on('click',function(){
     location.href="./discover/Schoolholidays.html";
   })
 
