@@ -69,71 +69,7 @@ html{
   /*min-width: 1080px;*/
   background: #002147;
 }
- .bottom{
-   position: relative;
-    background: #002147;
-    width:82%;
-    margin: 0 auto;
-    padding:1em 0 5rem 3em;
-    box-sizing: border-box;
-}
-.bottom .flag{
-  position:absolute;
-  right: 0;
-  top:0;
-  background: url('../img/bottom.png') no-repeat;
-  background-size:  auto 100%;
-  width: 32%;
-  height: 100%;
-}
-.bottom .social-icons{
-  color: white;
-  font-size: 1.7em;
-}
-.bottom .social-icons i:nth-child(2n+1){
-  font-size: 1.7em;
-  color:#e12282;
-  margin-left: 12px;
-  cursor: pointer;
-}
-.bottom .social-icons i:nth-child(2n){
-  font-size: 1.7em;
-  color:#4fb4fa;
-  margin-left: .5rem;
-  cursor: pointer;
-}
-.bottom .pure-menu-heading{
-  color: white;
-  font-size: 1.4rem;
-  margin-top: .6em;
-  margin-bottom: .8em;
-  font-weight: 700;
-  padding-left: 0;
-}
-.bottom .pure-menu-item a{
-  color: white;
-  font-size: 1.1rem;
-  line-height: 1.2em;
-  padding-left: 0;
 
-}
-.bottom .pure-menu-item a:hover{
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  background: transparent;
-  cursor: pointer;
-}
-.bottom .at{
-  color: white;
-  /*margin-top: 40px;*/
-  line-height: 3em;
-  font-size: 1.1em;
-  position: absolute;
-  left:3em;
-  bottom: .4em;
-  z-index:999;
-}
 
 .top{
   /*width:82%;*/
@@ -335,7 +271,71 @@ html{
   cursor: pointer;
   color: #4fb4fa;
 }
+.bottom{
+  position: relative;
+   background: #002147;
+   width:82%;
+   margin: 0 auto;
+   padding:1em 0 5rem 3em;
+   box-sizing: border-box;
+}
+.bottom .flag{
+ position:absolute;
+ right: 0;
+ top:0;
+ background: url('../img/bottom.png') no-repeat;
+ background-size:  auto 100%;
+ width: 32%;
+ height: 100%;
+}
+.bottom .social-icons{
+ color: white;
+ font-size: 1.7em;
+}
+.bottom .social-icons i:nth-child(2n+1){
+ font-size: 1.7em;
+ color:#e12282;
+ margin-left: 12px;
+ cursor: pointer;
+}
+.bottom .social-icons i:nth-child(2n){
+ font-size: 1.7em;
+ color:#4fb4fa;
+ margin-left: .5rem;
+ cursor: pointer;
+}
+.bottom .pure-menu-heading{
+ color: white;
+ font-size: 1.4rem;
+ margin-top: .6em;
+ margin-bottom: .8em;
+ font-weight: 700;
+ padding-left: 0;
+}
+.bottom .pure-menu-item a{
+ color: white;
+ font-size: 1.1rem;
+ line-height: 1.2em;
+ padding-left: 0;
 
+}
+.bottom .pure-menu-item a:hover{
+ color: white;
+ font-size: 1rem;
+ font-weight: bold;
+ background: transparent;
+ cursor: pointer;
+}
+.bottom .at{
+ color: white;
+ /*margin-top: 40px;*/
+ line-height: 3em;
+ font-size: 1.1em;
+ position: absolute;
+ left:3em;
+ bottom: .4em;
+ z-index:999;
+}
 .swiper-container2{
   width: 95%;
   overflow: hidden;
