@@ -298,6 +298,7 @@ font-weight: 100;
 .content .iconfont{
   position: absolute;
   font-size: 2.8rem;
+  z-index:999;
 }
 .content .iconfont:nth-child(1){
   color:#e12282;
