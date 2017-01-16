@@ -19,7 +19,7 @@ $(function(){
 var contentHeight = $('.content').height();
 var rectHeight = $('html').css('font-size').replace('px','')*3;
 $('.animate-letters').append(
-  '<div class="animate-letter"></div>'
+  '<div class="animate-letter"></div><div class="animate-letter"></div>'
 )
 for(var i=0;i<Math.ceil(contentHeight/rectHeight);i++){
   $('.animate-letters').append(
