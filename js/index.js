@@ -51,31 +51,7 @@ $(function(){
   $('.mask').on('click',function(){
     $(this).hide();
   })
-  // $('.pure-input-1-2').on('change',function(){
-  //     switch ($(this).val()) {
-  //       case 'Education':
-  //         location.href='./dropdown/universities.html';
-  //         break;
-  //       case 'Property':
-  //         location.href='./dropdown/Apartment.html';
-  //         break;
-  //       case 'Team':
-  //         location.href='./dropdown/Team.html';
-  //         break;
-  //         case 'HND&Colleges':
-  //           location.href='./dropdown/hn&College.html';
-  //           break;
-  //         case 'Alumni Association':
-  //           location.href='./dropdown/alumniassociation.html';
-  //           break;
-  //         case'Accommodation':
-  //           location.href='./dropdown/accommodation.html';
-  //           break;
-  //       default:
-  //           return false;
-  //     }
-  // })
-  //
+  
   $('.news .imghover:nth-child(1)').on('click',function(){
     location.href="./news/right.html";
   })
