@@ -4,9 +4,14 @@
 figure{
   margin: 0 85px;
 }
+
 .team-list-item {
   width:90%;
-  margin: 60px auto;
+  margin: 4.5rem auto 0 auto ;
+}
+.team-list-item:nth-child(1) {
+  width:90%;
+  margin: 7rem auto 0 auto ;
 }
 .team-list-item figure,.team-list-item .indrouce{
   display: inline-block;
