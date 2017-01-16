@@ -295,13 +295,13 @@ html{
 .bottom .social-icons i:nth-child(2n+1){
  font-size: 1.7em;
  color:#e12282;
- margin-left: 12px;
+ /*margin-left: 12px;*/
  cursor: pointer;
 }
 .bottom .social-icons i:nth-child(2n){
  font-size: 1.7em;
  color:#4fb4fa;
- margin-left: .5rem;
+ /*margin-left: .5rem;*/
  cursor: pointer;
 }
 .bottom .pure-menu-heading{

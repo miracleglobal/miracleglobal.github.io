@@ -286,7 +286,7 @@ html{
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
   /*padding: .7em 4em .4em 4em;*/
   padding: 1rem 0 .2rem 0;
-  line-height: 1.5rem;
+  line-height: 1.85rem;
   margin-bottom:.6rem;
 }
 .content p {
@@ -299,27 +299,27 @@ html{
 .content .iconfont:nth-child(1){
   color:#e12282;
   left:-5rem;
-  top: 13rem;
+  top: 8rem;
 }
 .content .iconfont:nth-child(2){
   color:#4fb4fa;
   left:-5rem;
-  top: 17rem;
+  top: 11.5rem;
 }
 .content .iconfont:nth-child(3){
   color:#e12282;
   left:-5rem;
-  top: 21rem;
+  top: 15rem;
 }
 .content .iconfont:nth-child(4){
   color:#4fb4fa;
   left:-5rem;
-  top: 25rem;
+  top: 18.5rem;
 }
 .content .iconfont:nth-child(5){
   color:#e12282;
   left:-5rem;
-  top: 29rem;
+  top: 22rem;
 }
 
 .container ul{
