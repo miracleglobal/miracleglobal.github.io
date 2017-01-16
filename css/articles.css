@@ -249,7 +249,7 @@ html{
  position: absolute;
  left:3em;
  bottom: .4em;
- z-index:999;
+ z-index:998;
 }
 #gotoTop{
   display: block;
