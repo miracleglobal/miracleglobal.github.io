@@ -99,7 +99,7 @@ html{
 .bottom .social-icons i:nth-child(2n){
   font-size: 1.7em;
   color:#4fb4fa;
-  margin-left: 12px;
+  margin-left: .8rem;
   cursor: pointer;
 }
 .bottom .pure-menu-heading{
