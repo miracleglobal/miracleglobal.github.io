@@ -3,13 +3,16 @@
 }
 .property-list-item {
   width:90%;
-  margin: 60px auto;
+  margin: 4rem auto;
   display: flex;
   display: -webkit-flex;
 }
+.property-list-item:nth-child(1) {
+  margin-top: 9rem!important;
+}
 .property-list-item img{
   /*display: inline-block;*/
-  margin-right: 70px;
+  margin-right: 6rem;
 }
 .property-list-item .indrouce h4{
   font-size: 2em;

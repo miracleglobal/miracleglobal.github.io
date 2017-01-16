@@ -2,16 +2,16 @@
   padding:20px;
 }
 figure{
-  margin: 0 85px;
+  margin: 0 8rem 0 4rem;
 }
 
 .team-list-item {
-  width:90%;
+  width:96%;
   margin: 4.5rem auto 0 auto ;
 }
 .team-list-item:nth-child(1) {
-  width:90%;
-  margin: 7rem auto 0 auto ;
+  width:96%;
+  margin: 8rem auto 0 auto ;
 }
 .team-list-item figure,.team-list-item .indrouce{
   display: inline-block;
@@ -25,7 +25,7 @@ figure{
   line-height: 2em;
 }
 .team-list-item .indrouce p{
-  text-indent: 1em;
+  /*text-indent: 1em;*/
   font-size: 1.4em;
   line-height: 1.1em;
 }
