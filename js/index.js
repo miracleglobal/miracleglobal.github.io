@@ -51,7 +51,7 @@ $(function(){
   $('.mask').on('click',function(){
     $(this).hide();
   })
-  
+
   $('.news .imghover:nth-child(1)').on('click',function(){
     location.href="./news/right.html";
   })
