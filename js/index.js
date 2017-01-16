@@ -12,38 +12,19 @@ $(function(){
   // nextButton: '.swiper-button-next',
   // prevButton: '.swiper-button-prev',
   })
-  var jssor_1_options = {
-    $AutoPlay: false,
-    $AutoPlaySteps: 4,
-    $SlideDuration: 160,
-    $SlideWidth: 200,
-    $SlideSpacing: 10,
-    $Cols: 4,
-    $ArrowNavigatorOptions: {
-      $Class: $JssorArrowNavigator$,
-      $Steps: 4
-    }
-  };
-//Slider初始化
-  var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-  /*responsive code begin*/
-  /*you can remove responsive code if you don't want the slider scales while window resizing*/
-  function ScaleSlider() {
-      var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-      if (refSize) {
-        var tempSize = window.screen.width;
-            refSize = Math.min(refSize, tempSize-450);
-          jssor_1_slider.$ScaleWidth(refSize);
-      }
-      else {
-          window.setTimeout(ScaleSlider, 30);
-      }
-  }
-  ScaleSlider();
-    //$(window).bind("load", ScaleSlider);
-  $(window).bind("resize", ScaleSlider);
-  $(window).bind("orientationchange", ScaleSlider);
-  /*responsive code end*/
+  var mySwiper2 = new Swiper('.discover .swiper-container2', {
+      // pagination: '.swiper-pagination',
+      //  nextButton: '.swiper-button-next',
+      slidesPerView: 4.5,
+      centeredSlides: false,
+      paginationClickable: true,
+      loop:true,
+       spaceBetween: 20,
+      grabCursor: true
+  });
+  $('.discover-arrow').click(function(){
+    mySwiper2.slideNext();
+  })
   $('.imghover').on('mouseover',function(){
     $(this).children('div,img').addClass('img-hover');
   })
@@ -58,9 +39,9 @@ $(function(){
   })
 
 
-  
+
   $('.weibo').on('click',function(){
-    
+
     window.open("http://weibo.com/miracleuk");
   })
   $('.wechat').on('click',function(){
@@ -122,7 +103,7 @@ $(function(){
   $('.discover .numberof').on('click',function(){
     location.href="./discover/numberOfForeign.html";
   })
-  
+
 
   $('.discover .brexit').on('click',function(){
     location.href="./discover/Brexitcould.html";
@@ -133,8 +114,8 @@ $(function(){
   $('.discover .schoolholiday').on('click',function(){
     location.href="./discover/Schoolholidays.html";
   })
-  
-  
+
+
      $('.study .imghover:nth-child(1)').on('click',function(){
         location.href="./dropdown/universities.html";
   })
