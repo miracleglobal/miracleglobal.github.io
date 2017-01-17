@@ -288,9 +288,9 @@ html{
  width: 44%;
  height: 100%;
 }
-.bottom .social-icons{
+.bottom .social-icons:not(i){
  color: white;
- font-size: 2.5rem;
+ font-size: 1.2rem;
 }
 .bottom .social-icons i:nth-child(2n+1){
  font-size: 2.5rem;

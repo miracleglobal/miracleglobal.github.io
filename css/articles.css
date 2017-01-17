@@ -194,16 +194,16 @@ html{
  width: 44%;
  height: 100%;
 }
-.bottom .social-icons{
+.bottom .social-icons:not(i){
  color: white;
- font-size: 2.5rem;
+ font-size: 1.2rem;
 }
 .bottom .social-icons i:nth-child(2n+1){
  font-size: 2.5rem;
  color:#e12282;
  /*margin-left: 12px;*/
  cursor: pointer;
- vertical-align: bottom;
+
 }
 .bottom .social-icons i:nth-child(2n){
  font-size: 2.5rem;
@@ -217,23 +217,27 @@ html{
 .bottom .links{
   padding-left:1.6rem;
   margin-top: 3rem;
-    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
+  font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 
+}
+.bottom .information-about{
+  font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 }
 .bottom .pure-menu-heading{
  color: white;
- font-size: 1.4rem;
- margin-top: 1.3rem;
+ font-size: 1.3rem;
+ margin-top: 1.1rem;
  margin-bottom: 1rem;
- font-weight: 700;
+ font-weight: 500;
  padding-left: 0;
 }
 .bottom .pure-menu-item a{
  color: white;
- font-size: .8rem;
+ font-size: .7rem;
  line-height: 1rem;
  padding-left: 0;
-font-weight: 100;
+ font-weight: 100;
+
 }
 .bottom .pure-menu-item a:hover{
  color: white;
@@ -241,10 +245,11 @@ font-weight: 100;
  font-weight: bold;
  background: transparent;
  cursor: pointer;
- font-weight: 100;
+ font-weight: 2100;
 }
 .bottom .quick-link{
   padding: 0 4.5rem;
+  font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 }
 .bottom .at{
  color: white;
