@@ -213,6 +213,7 @@ html{
 .bottom .links{
   padding-left:1.6rem;
   margin-top: 3rem;
+    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 
 }
 .bottom .pure-menu-heading{
@@ -298,32 +299,32 @@ font-weight: 100;
 .content .iconfont{
   position: absolute;
   font-size: 2.8rem;
-  z-index:999;
+  z-index:998;
 }
 .content .iconfont:nth-child(1){
   color:#e12282;
   left:-5rem;
-  top: 8rem;
+  top: 9rem;
 }
 .content .iconfont:nth-child(2){
   color:#4fb4fa;
   left:-5rem;
-  top: 11.5rem;
+  top: 12.5rem;
 }
 .content .iconfont:nth-child(3){
   color:#e12282;
   left:-5rem;
-  top: 15rem;
+  top: 16rem;
 }
 .content .iconfont:nth-child(4){
   color:#4fb4fa;
   left:-5rem;
-  top: 18.5rem;
+  top: 19.5rem;
 }
 .content .iconfont:nth-child(5){
   color:#e12282;
   left:-5rem;
-  top: 22rem;
+  top: 23rem;
 }
 
 .container ul{
