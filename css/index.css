@@ -168,9 +168,10 @@ html{
   /*box-shadow: 0 0 10px #eee;*/
   /*background: #111;*/
   font-size:1.4em;
-  padding: .2rem .5rem .5rem .5rem;
-  height: 5rem;
+  padding: 1rem .5rem 0 .5rem;
+  height: 6rem;
   /*opacity: 0.82;*/
+  box-sizing: border-box;
 }
 
 .top .swiper-container .text-shadow:not(span){
