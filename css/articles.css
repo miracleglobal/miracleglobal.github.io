@@ -55,6 +55,8 @@ html{
   margin: 0 auto;
   /*min-width: 1080px;*/
   background: #002147;
+  border: #002147 1px solid;
+
 }
 
 
@@ -180,6 +182,8 @@ html{
    margin: 0 auto;
    padding:1em 0 15rem 3em;
    box-sizing: border-box;
+   border: #002147 1px solid;
+
 }
 .bottom .flag{
  position:absolute;

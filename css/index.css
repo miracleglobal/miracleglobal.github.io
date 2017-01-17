@@ -55,6 +55,7 @@ html{
   margin: 0 auto;
   /*min-width: 1080px;*/
   background: #002147;
+  border: #002147 1px solid;
 }
 
 
@@ -172,10 +173,11 @@ html{
 }
 .top .swiper-container .text-shadow:not(span){
   font-size:1.5em;
-  font-weight: 900;
+  font-weight: 800;
 }
 .top .swiper-container .text-shadow span{
   font-size:.8em!important;
+  font-weight: 500;
 }
 
 .container .news,.container .discover,.container .study{
@@ -270,6 +272,8 @@ html{
    margin: 0 auto;
    padding:1em 0 15rem 3em;
    box-sizing: border-box;
+   border: #002147 1px solid;
+
 }
 .bottom .flag{
  position:absolute;
