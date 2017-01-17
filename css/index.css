@@ -173,7 +173,7 @@ html{
 }
 .top .swiper-container .text-shadow:not(span){
   font-size:1.5em;
-  font-weight: 800;
+  font-weight: 600;
 }
 .top .swiper-container .text-shadow span{
   font-size:.8em!important;
