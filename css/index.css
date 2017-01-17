@@ -168,20 +168,21 @@ html{
   /*-moz-box-shadow: 0 0 10px #eee; /* 老的 Firefox */*/
   /*box-shadow: 0 0 10px #eee;*/
   /*background: #111;*/
-  font-size:1.4em;
-  padding: 1rem .5rem 0 .5rem;
+  font-size:1.5rem;
+  padding: 1rem 2rem 0 2rem;
   height: 6rem;
-  /*opacity: 0.82;*/
+  opacity: 0.962;
   box-sizing: border-box;
 }
 
 .top .swiper-container .text-shadow:not(span){
-  font-size:1.9rem;
+  font-size:2.1rem;
   font-weight: 600;
+  line-height: 1.8rem;
 }
 .top .swiper-container .text-shadow span{
   font-size:.8rem!important;
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .container .news,.container .discover,.container .study{
@@ -274,7 +275,7 @@ html{
    background: #002147;
    width:82%;
    margin: 0 auto;
-   padding:1em 0 15rem 3em;
+   /*padding:1.2rem 0 15rem 3em;*/
    box-sizing: border-box;
    border: #002147 1px solid;
 
@@ -285,8 +286,14 @@ html{
  top:0;
  background: url('../img/bottom.png') no-repeat;
  background-size:  auto 100%;
- width: 44%;
+ width: 31%;
  height: 100%;
+}
+.bottom .social-icons{
+  position: relative;
+  padding:1.3rem 0 1.3rem 2.3rem;
+  border-bottom: 1px solid #122f53;
+  z-index: 999;
 }
 .bottom .social-icons:not(i){
  color: white;
@@ -295,34 +302,36 @@ html{
 .bottom .social-icons i:nth-child(2n+1){
  font-size: 2.5rem;
  color:#e12282;
- /*margin-left: 12px;*/
+ margin-left: .6rem;
  cursor: pointer;
 
 }
 .bottom .social-icons i:nth-child(2n){
  font-size: 2.5rem;
  color:#4fb4fa;
- /*margin-left: .5rem;*/
+ margin-left: .6rem;
  cursor: pointer;
 
 }
 .bottom .social-icons i:nth-child(1){ font-size: 2.5rem;}
 .bottom .social-icons i:nth-child(2){font-size: 2.5rem;}
 .bottom .links{
-  padding-left:1.6rem;
-  margin-top: 3rem;
+  padding-left:4.5rem;
+  margin-top: 1rem;
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 
 }
 .bottom .information-about{
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
+    min-height: 30rem;
+    border-left: 1px solid #122f53;
 }
 .bottom .pure-menu-heading{
  color: white;
  font-size: 1.3rem;
- margin-top: 1.1rem;
+ margin-top: .7rem;
  margin-bottom: 1rem;
- font-weight: 500;
+ font-weight: 300;
  padding-left: 0;
 }
 .bottom .pure-menu-item a{
@@ -330,7 +339,7 @@ html{
  font-size: .7rem;
  line-height: 1rem;
  padding-left: 0;
- font-weight: 100;
+ font-weight: lighter;
 
 }
 .bottom .pure-menu-item a:hover{
@@ -339,11 +348,14 @@ html{
  font-weight: bold;
  background: transparent;
  cursor: pointer;
- font-weight: 2100;
+ font-weight: lighter;
 }
 .bottom .quick-link{
   padding: 0 4.5rem;
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
+  min-height: 30rem;
+  border-left: 1px solid #122f53;
+
 }
 .bottom .at{
  color: white;
