@@ -200,11 +200,11 @@ html{
   top: 45%;
   font-size: 2.4em;
   color: #6f7d8e;
-  -ms-transform: translate(-0%, -60%);
-  -moz-transform: translate(-0%, -60%);
-  -o-transform: translate(-0%, -60%);
-  -webkit-transform: translate(-0%, -60%);
-  transform: translate(-0%, -60%);
+  -ms-transform: translate(-0%, -50%);
+  -moz-transform: translate(-0%, -50%);
+  -o-transform: translate(-0%, -50%);
+  -webkit-transform: translate(-0%, -50%);
+  transform: translate(-0%, -50%);
   cursor: pointer;
 }
 
