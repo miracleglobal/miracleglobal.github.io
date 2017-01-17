@@ -221,15 +221,16 @@ html{
 .bottom .social-icons i:nth-child(1){ font-size: 2.5rem;}
 .bottom .social-icons i:nth-child(2){font-size: 2.5rem;}
 .bottom .links{
-  padding-left:4.5rem;
+  padding:0 0 12rem 2.5rem;
   margin-top: 1rem;
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 
 }
 .bottom .information-about{
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
-    min-height: 30rem;
     border-left: 1px solid #122f53;
+    box-sizing: border-box;
+    padding-left: 2rem;
 }
 .bottom .pure-menu-heading{
  color: white;
@@ -256,22 +257,25 @@ html{
  font-weight: lighter;
 }
 .bottom .quick-link{
-  padding: 0 4.5rem;
+  padding: 0 2.5rem;
+  margin-left: 2rem;
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
-  min-height: 30rem;
+  /*min-height: 30rem;*/
   border-left: 1px solid #122f53;
+  box-sizing: border-box;
 
 }
 .bottom .at{
  color: white;
- /*margin-top: 40px;*/
  padding-left: 0px
  line-height: 3em;
  font-size: .9rem;
  position: absolute;
- left:3em;
- bottom: .2rem;
+ left:0;
+ bottom: 0;
  z-index:998;
+ padding:1.6rem 2rem .7rem 2.7rem;
+ border-top: 1px solid #122f53;
 }
 #gotoTop{
   display: block;
