@@ -191,7 +191,7 @@ html{
  top:0;
  background: url('../img/bottom.png') no-repeat;
  background-size:  auto 100%;
- width: 31%;
+ width: 36%;
  height: 100%;
 }
 .bottom .social-icons{
@@ -266,7 +266,7 @@ html{
 
 }
 .bottom .at{
- color: white;
+ color: #efefef;
  padding-left: 0px
  line-height: 3em;
  font-size: .9rem;
@@ -274,7 +274,7 @@ html{
  left:0;
  bottom: 0;
  z-index:998;
- padding:1.6rem 2rem .7rem 2.7rem;
+ padding:1.6rem 2rem 1.1rem 2.7rem;
  border-top: 1px solid #122f53;
 }
 #gotoTop{
