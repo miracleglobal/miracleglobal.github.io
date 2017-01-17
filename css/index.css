@@ -171,12 +171,12 @@ html{
   padding: .2em .5em .5em .5em;
   opacity: 0.82;
 }
-.top .swiper-container .text-shadow:not(span){
+.top .swiper-container .shadow-tit{
   font-size:1.5em;
   font-weight: 600;
   opacity: 0.4;
 }
-.top .swiper-container .text-shadow span{
+.top .swiper-container .shadow-text{
   font-size:.8em!important;
   font-weight: 500;
 }
