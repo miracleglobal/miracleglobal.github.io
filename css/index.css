@@ -56,6 +56,7 @@ html{
   /*min-width: 1080px;*/
   background: #002147;
   border: #002147 1px solid;
+  box-sizing:  border-box;
 }
 
 
@@ -310,20 +311,23 @@ html{
 .bottom .links{
   padding-left:1.6rem;
   margin-top: 3rem;
-    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
+  font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 
+}
+.bottom .information-about{
+  font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 }
 .bottom .pure-menu-heading{
  color: white;
- font-size: 1.4rem;
- margin-top: 1.3rem;
+ font-size: 1.3rem;
+ margin-top: 1.1rem;
  margin-bottom: 1rem;
- font-weight: 700;
+ font-weight: 500;
  padding-left: 0;
 }
 .bottom .pure-menu-item a{
  color: white;
- font-size: .8rem;
+ font-size: .7rem;
  line-height: 1rem;
  padding-left: 0;
  font-weight: 100;
@@ -339,6 +343,7 @@ html{
 }
 .bottom .quick-link{
   padding: 0 4.5rem;
+  font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
 }
 .bottom .at{
  color: white;

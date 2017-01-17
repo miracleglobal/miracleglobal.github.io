@@ -271,6 +271,7 @@ font-weight: 100;
   background: #efefef;
   margin-top: -7%;
   box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 .content{
   position:relative;
