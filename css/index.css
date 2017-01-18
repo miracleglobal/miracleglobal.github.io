@@ -190,10 +190,23 @@ html{
   background: #f2f1ec;
   padding: 1.5em 1.6em 1.5em 1.6em;
   box-sizing: border-box;
-  font-size: 1.6em;
+  font-size: 1em;
   line-height: 1.8em;
   font-weight: bold;
   color: #322b4a;
+}
+.all{
+  font-size: .8em;
+  text-decoration: underline;
+  margin-left: .8rem;
+  line-height: .8rem;
+}
+.all:hover{
+  font-size: .8em;
+  color:#1155ee!important;
+  text-decoration: underline;
+  margin-left: .8rem;
+  line-height: .8rem;
 }
 .container .discover{
   background: #e0ded9!important;
