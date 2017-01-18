@@ -55,16 +55,17 @@ html{
   margin: 0 auto;
   /*min-width: 1080px;*/
   background: #002147;
-  border: #002147 1px solid;
-
 }
 
 
 .top{
-  /*width:82%;*/
+  /*width:82.%;*/
   margin: 0 auto;
   padding-top: 1.5625em;
   box-sizing: border-box;
+}
+.container{
+  width:81.8%;
 }
 .top .pure-menu {
   left:50%!important;

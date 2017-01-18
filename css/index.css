@@ -181,8 +181,8 @@ html{
   line-height: 1.8rem;
 }
 .top .swiper-container .text-shadow span{
-  font-size:1rem!important;
-  font-weight: 100;
+  font-size:1.32rem!important;
+  font-weight: lighter;
 }
 
 .container .news,.container .discover,.container .study{
@@ -316,16 +316,16 @@ html{
 .bottom .social-icons i:nth-child(1){ font-size: 2.5rem;}
 .bottom .social-icons i:nth-child(2){font-size: 2.5rem;}
 .bottom .links{
-  padding:0 0 12rem 2.5rem;
+  padding:0 0 6rem 2.5rem;
   margin-top: 1rem;
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
-
 }
 .bottom .information-about{
   font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif!important;
     border-left: 1px solid #122f53;
     box-sizing: border-box;
     padding-left: 2rem;
+    min-height: 26rem;
 }
 .bottom .pure-menu-heading{
  color: white;
@@ -358,6 +358,8 @@ html{
   /*min-height: 30rem;*/
   border-left: 1px solid #122f53;
   box-sizing: border-box;
+  height: 26rem;
+
 
 }
 .bottom .at{
